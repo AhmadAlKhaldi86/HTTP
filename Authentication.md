@@ -8,6 +8,9 @@
  - To aviod passing userid/password in clear test through the network. 
  - It can be decoded. So it suggested to be used on conjunction with HTTPS/TLS
  - However this sheme should not be used to protect sensative info. 
+```diff
+Example 
+```
 
 ### Bearer HTTP
 - Bearer Toekns to access an OAUTH protected resource. 
