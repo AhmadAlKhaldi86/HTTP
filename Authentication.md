@@ -14,3 +14,10 @@ Example
 
 ### Bearer HTTP
 - Bearer Toekns to access an OAUTH protected resource. 
+
+
+
+
+
+### Resource 
+ - https://oauth.net/2/
