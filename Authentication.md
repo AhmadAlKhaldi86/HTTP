@@ -21,3 +21,5 @@ Example
 
 ### Resource 
  - https://oauth.net/2/
+ - https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Authorization
+ - Openshift oauth
