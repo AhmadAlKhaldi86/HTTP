@@ -14,7 +14,8 @@ Example
 
 ### Bearer HTTP
 - Bearer Tokens to access an OAUTH protected resource. 
-
+- Oauth is just an industry security standard that enables apps to get LIMITED access to an http resource. 
+![](https://github.com/AhmadAlKhaldi86/Security/blob/master/assets/Oauth%20FrameWork.png)
 
 
 
