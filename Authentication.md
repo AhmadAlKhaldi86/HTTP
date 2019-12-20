@@ -23,7 +23,12 @@ server and are used to obtain a new access token when the current access token b
 - transport-layer security should always be used. 
 - Continue reading here https://oauth.net/2/
 - https://aaronparecki.com/oauth-2-simplified/#roles
-- 
+
+```diff
+Example:
+```
+
+
 ### Resource 
  - https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Authorization
- - Openshift oauth
+
