@@ -30,7 +30,17 @@ Example:
    --> https://imgur.com/user/AhmadAlKhaldi/posts
    --> https://ahmadalkhaldi.imgur.com/all
 - I want to access all my posts from postman application.
-
+- I need to register the app that is trying to access the users info. @ https://api.imgur.com/oauth2/addclient
+  --> postMan callback URL https://www.getpostman.com/oauth2/callback
+  --> Now imgur will redirect auth code to above callBack URL. 
+ 
+- Once you register your app you get 
+  --> clientID 463e4f1a446d62e
+  --> clientSecret 7913a008116963551f57bb049f115bec15755940
+  
+- Your app needs to contact Auth-URL and 
+   - Auth-URL:-  https://api.imgur.com/oauth2/authorize
+   - Access Token URL:- https://api.imgur.com/oauth2/token
 ```
 
 
