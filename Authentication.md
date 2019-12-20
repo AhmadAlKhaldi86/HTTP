@@ -13,7 +13,7 @@ Example
 ```
 
 ### Bearer HTTP
-- Bearer Toekns to access an OAUTH protected resource. 
+- Bearer Tokens to access an OAUTH protected resource. 
 
 
 
