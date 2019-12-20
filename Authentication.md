@@ -22,6 +22,8 @@ server and are used to obtain a new access token when the current access token b
 ![](https://github.com/AhmadAlKhaldi86/Security/blob/master/assets/RefreshTokens.png)
 - transport-layer security should always be used. 
 - Continue reading here https://oauth.net/2/
+- https://aaronparecki.com/oauth-2-simplified/#roles
+- 
 ### Resource 
  - https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Authorization
  - Openshift oauth
