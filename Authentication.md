@@ -26,6 +26,11 @@ server and are used to obtain a new access token when the current access token b
 
 ```diff
 Example:
+- Now i have an account in a website called imgur 
+   --> https://imgur.com/user/AhmadAlKhaldi/posts
+   --> https://ahmadalkhaldi.imgur.com/all
+- I want to access all my posts from postman application.
+
 ```
 
 
