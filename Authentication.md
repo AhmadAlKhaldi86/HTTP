@@ -20,6 +20,7 @@ Example
 - Refresh tokens are credentials used to obtain access tokens.  Refresh tokens are issued to the client by the authorization
 server and are used to obtain a new access token when the current access token becomes invalid or expires.
 ![](https://github.com/AhmadAlKhaldi86/Security/blob/master/assets/RefreshTokens.png)
+- transport-layer security should always be used. 
 
 ### Resource 
  - https://oauth.net/2/
