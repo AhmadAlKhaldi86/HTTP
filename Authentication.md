@@ -16,9 +16,10 @@ Example
 - Bearer Tokens to access an OAUTH protected resource. 
 - Oauth is just an industry security standard that enables apps to get LIMITED access to an http resource. 
 ![](https://github.com/AhmadAlKhaldi86/Security/blob/master/assets/Oauth%20FrameWork.png)
-
-
-
+- Tokens represent specific scopes and durations of access.
+- Refresh tokens are credentials used to obtain access tokens.  Refresh tokens are issued to the client by the authorization
+server and are used to obtain a new access token when the current access token becomes invalid or expires.
+![](https://github.com/AhmadAlKhaldi86/Security/blob/master/assets/RefreshTokens.png)
 
 ### Resource 
  - https://oauth.net/2/
