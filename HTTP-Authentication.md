@@ -1,6 +1,7 @@
 ### Authentication Scheme:
  - Is an auth module that implements the way a client should connect to a dataStore. 
  - Such as Basic Auth Scheme or Bearer Auth Scheme. 
+ - www-authentication: Desribes the way the cient should connect to the dataStore. 
  
 ### Basic HTTP : 
  - HTTP "Hyper Text Transfer protocol" is a michanism to link content on a page to other content on same or another page. 
