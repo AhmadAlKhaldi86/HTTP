@@ -11,6 +11,7 @@
  - However this sheme should not be used to protect sensative info. 
 ```diff
 Example 
+QUhNQUQ6QUhNQUQxMjM=
 ```
 
 ### Bearer HTTP
