@@ -54,7 +54,34 @@ Example: If your app is not requesting public readOnly info. Then you need authe
  https://api.imgur.com/oauth2/authorize?client_id=463e4f1a446d62e&response_type=token&state=round-trips
 ```
 
+### SCRAM : Salted Challenge Reponse Authentication machanism. 
+ - Better than basic encoded Or clearText(Digest) password with TLS.
+ - Why: The authentication information stored in the authentication database is not sufficient by itself. The information is salted to make it harder to do a pre-stored dictionary attack if the database is stolen.
+ - How: 
+   - Client possession of username/password encoded or solatedPass. --> Sends to server.
+   - Server retrieves the corresponding authentication information: a salt, StoredKey, a ServerKey, and an iteration count 
+   - Server sends the salt and the iteration count to the client.
+   - Client computes the following values and sends a ClientProof to the server. The Formila that only the cient and server know about 
+   
+```diff
+      SaltedPassword  := Hi(Normalize(password), salt, i)
+      ClientKey       := HMAC(SaltedPassword, "Client Key")
+      StoredKey       := H(ClientKey)
+      AuthMessage     := client-first-message-bare + "," +
+                         server-first-message + "," +
+                         client-final-message-without-proof
+      ClientSignature := HMAC(StoredKey, AuthMessage)
+      ClientProof     := ClientKey XOR ClientSignature
+      ServerKey       := HMAC(SaltedPassword, "Server Key")
+      ServerSignature := HMAC(ServerKey, AuthMessage)
+```
+ 
+  -  Server authenticates the client by computing the ClientSignature,exclusive-ORing that with the ClientProof to recover the ClientKey, and verifying the correctness of the ClientKey by applying the hash function and comparing the result to the StoredKey.  If the ClientKey . is correct, this proves that the client has access to the user's
+exclusive-ORing that with the ClientProof to recover the ClientKey, password.
 
-### Resource 
- - https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Authorization
+ -   Client authenticates the server by computing the ServerSignature and comparing it to the value sent by the server.  If the two are equal, this proves that the server had access to the user's ServerKey.
+
+ - ReadMore https://tools.ietf.org/html/rfc7804#section-3
+
+ 
 
