@@ -41,6 +41,10 @@ Example:
 - Your app needs to contact Auth-URL and Access token URL.
    - Auth-URL:-  https://api.imgur.com/oauth2/authorize
    - Access Token URL:- https://api.imgur.com/oauth2/token
+ 
+- You will request access token and get it. You will also get refresh token. 
+     - At 4e6d1f6196fd3f1aea63898b6e7b1efd82db9e62
+     - RT 9dac554d93fca22ecdd4ad3012afcdaf5285f7e0
 ```
 
 
