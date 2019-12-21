@@ -38,7 +38,7 @@ Example:
   --> clientID 463e4f1a446d62e
   --> clientSecret 7913a008116963551f57bb049f115bec15755940
   
-- Your app needs to contact Auth-URL and 
+- Your app needs to contact Auth-URL and Access token URL.
    - Auth-URL:-  https://api.imgur.com/oauth2/authorize
    - Access Token URL:- https://api.imgur.com/oauth2/token
 ```
