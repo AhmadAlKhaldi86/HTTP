@@ -4,7 +4,6 @@
  - www-authentication: Desribes the way the cient should connect to the dataStore. 
  
 ### Basic HTTP : 
- - HTTP "Hyper Text Transfer protocol" is a michanism to link content on a page to other content on same or another page. 
  - Basic is an Auth Scheme that transmits credentials as username/pass pairs. encoded using Base64. 
  - To aviod passing userid/password in clear test through the network. 
  - It can be decoded. So it suggested to be used on conjunction with HTTPS/TLS
