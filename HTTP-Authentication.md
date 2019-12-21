@@ -76,10 +76,10 @@ Example: If your app is not requesting public readOnly info. Then you need authe
       ServerSignature := HMAC(ServerKey, AuthMessage)
 ```
  
-  -  Server authenticates the client by computing the ClientSignature,exclusive-ORing that with the ClientProof to recover the ClientKey, and verifying the correctness of the ClientKey by applying the hash function and comparing the result to the StoredKey.  If the ClientKey . is correct, this proves that the client has access to the user's
+   -  Server authenticates the client by computing the ClientSignature,exclusive-ORing that with the ClientProof to recover the ClientKey, and verifying the correctness of the ClientKey by applying the hash function and comparing the result to the StoredKey.  If the ClientKey . is correct, this proves that the client has access to the user's
 exclusive-ORing that with the ClientProof to recover the ClientKey, password.
 
- -   Client authenticates the server by computing the ServerSignature and comparing it to the value sent by the server.  If the two are equal, this proves that the server had access to the user's ServerKey.
+   -   Client authenticates the server by computing the ServerSignature and comparing it to the value sent by the server.  If the two are equal, this proves that the server had access to the user's ServerKey.
 
  - ReadMore https://tools.ietf.org/html/rfc7804#section-3
 
