@@ -47,6 +47,9 @@ Example: If your app is not requesting public readOnly info. Then you need authe
      - RT 9dac554d93fca22ecdd4ad3012afcdaf5285f7e0
     
  - Now if postman tries to access useraccount it will ask you for permissions to access. 
+ 
+ - Another way to get access token 
+ https://api.imgur.com/oauth2/authorize?client_id=463e4f1a446d62e&response_type=token&state=round-trips
 ```
 
 
