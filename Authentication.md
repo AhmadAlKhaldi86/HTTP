@@ -25,7 +25,7 @@ server and are used to obtain a new access token when the current access token b
 - https://aaronparecki.com/oauth-2-simplified/#roles
 
 ```diff
-Example:
+Example: If your app is not requesting public readOnly info. Then you need authentication.
 - Now i have an account in a website called imgur 
    --> https://imgur.com/user/AhmadAlKhaldi/posts
    --> https://ahmadalkhaldi.imgur.com/all
