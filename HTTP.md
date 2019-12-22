@@ -33,7 +33,7 @@ Accept-Ranges: bytes
 Content-Length: 29769
 Content-Type: text/html
 
-
+HTTP Response codes https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
 ```
 
 
