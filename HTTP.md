@@ -16,12 +16,12 @@
 - Clinet send a message to the server. 
 ```diff
 Request 
-Method - GET 
-URL EndPoint -  / 
-Headers - Accept-Lang  fr
+Method --> GET 
+URL EndPoint -->  / 
+Headers --> Accept-Lang  fr
  Headers have additinal info to the server. 
-HTTP Version Protocol - HTTP/1.1
-Host: developer.mozilla.org
+HTTP Version Protocol --> HTTP/1.1
+
 
 reponse can be
 HTTP/1.1 200 OK
