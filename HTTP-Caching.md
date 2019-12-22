@@ -1,5 +1,5 @@
 # HTTP caching
-   - reusing previously fetched resources.
+   - Reusing previously fetched resources.
    
 ### caching control : Cache-Control prop
 - Cache-Control: no-store --> Every time you need to fetch from server. 
