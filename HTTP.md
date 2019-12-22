@@ -19,12 +19,12 @@ Request
 Method --> GET 
 URL EndPoint -->  / 
 Headers --> Accept-Lang  fr
- Headers have additinal info to the server. 
+ Headers have additinal info to the server. https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers
 HTTP Version Protocol --> HTTP/1.1
 
 
-reponse can be
-HTTP/1.1 200 OK
+Reponse can be
+StatusCode --> HTTP/1.1 200 OK
 Date: Sat, 09 Oct 2010 14:28:02 GMT
 Server: Apache
 Last-Modified: Tue, 01 Dec 2009 20:18:22 GMT
@@ -32,6 +32,8 @@ ETag: "51142bc1-7449-479b075b2891b"
 Accept-Ranges: bytes
 Content-Length: 29769
 Content-Type: text/html
+
+
 ```
 
 
